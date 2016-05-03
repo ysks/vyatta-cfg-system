@@ -8,6 +8,7 @@ bond	bonding
 vtun	openvpn
 tun	tunnel
 vti	vti
+vti6	vti6
 wlm	wirelessmodem
 wlan	wireless
 pppoe   pppoe

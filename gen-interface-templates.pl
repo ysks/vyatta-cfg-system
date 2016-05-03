@@ -52,6 +52,7 @@ my %interface_hash = (
 # of the node.def which is generated.
 my %interface_prio = (
     'vti/node.tag' => '901',
+    'vti6/node.tag' => '901',
 );
 
 sub gen_template {

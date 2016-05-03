@@ -124,6 +124,7 @@ sub get_features
     push(@features, "openvpn") if $config->exists("interfaces openvpn");
     push(@features, "vxlan") if $config->exists("interfaces vxlan");
     push(@features, "vti") if $config->exists("interfaces vti");
+    push(@features, "vti6") if $config->exists("interfaces vti6");
     push(@features, "qos") if $config->exists("traffic-policy");
     push(@features, "bonding") if $config->exists("interfaces bonding");
     push(@features, "bridge") if $config->exists("interfaces bridge");
